@@ -1,33 +1,32 @@
-Automated CI Pipeline for a Web Application using Jenkins
+                                                  Automated CI Pipeline for a Web Application using Jenkins 
 Project Overview
-
 This project demonstrates how to design and implement a Continuous Integration (CI) pipeline using Jenkins for a modern web application.
 The pipeline automatically triggers whenever new code is pushed to a GitHub repository. It performs automated steps including code retrieval, dependency installation, testing, building, and artifact packaging — ensuring the application is always ready for deployment.
 The project focuses on automation, reliability, and repeatability, which are key principles of modern DevOps practices.
 
 Objectives
 
-Learn how to install and configure Jenkins for CI pipelines.
+.Learn how to install and configure Jenkins for CI pipelines.
 
-Automate the build and test process of a web application.
+.Automate the build and test process of a web application.
 
-Integrate GitHub with Jenkins for automatic build triggers.
+.Integrate GitHub with Jenkins for automatic build triggers.
 
-Generate and archive build artifacts for future deployment.
+.Generate and archive build artifacts for future deployment.
 
-Understand Jenkins pipeline concepts and job configuration.
+.Understand Jenkins pipeline concepts and job configuration.
 
 Tech Stack
 
-Language/Framework: Node.js (can also use Python Flask or Java Spring Boot)
+.Language/Framework: Node.js (can also use Python Flask or Java Spring Boot)
 
-CI Tool: Jenkins
+.CI Tool: Jenkins
 
-Version Control: GitHub
+.Version Control: GitHub
 
-Testing Framework: Jest (Node.js) / Pytest (Python) / JUnit (Java)
+.Testing Framework: Jest (Node.js) / Pytest (Python) / JUnit (Java)
 
-Build Tool: npm / Maven / Gradle
+.Build Tool: npm / Maven / Gradle
 
 Pipeline Overview
 Stage	Description
@@ -37,11 +36,12 @@ Stage	Description
 4. Unit Testing	Runs automated tests to verify code functionality.
 5. Build and Package	Packages the application into a deployable format (e.g., .zip, .jar, .tar.gz).
 6. Post-Build Actions	Archives artifacts and displays build and test reports.
-Setup Instructions
-1. Install Jenkins
 
-Download and install Jenkins from https://www.jenkins.io/download/
-.
+Setup Instructions
+
+ Install Jenkins
+
+1.Download and install Jenkins from https://www.jenkins.io/download/
 
 Start Jenkins and install the recommended plugins.
 
@@ -69,7 +69,7 @@ Jenkins will execute each stage defined in the Jenkinsfile.
 
 You can monitor progress and results in the Pipeline Stage View.
 
-Expected Outputs
+#Expected Outputs
 
 Build Artifact: A packaged output file (e.g., artifact.zip, .jar, or .tar.gz) stored in the build/ directory.
 
@@ -77,19 +77,19 @@ Test Report: Generated automatically and viewable in Jenkins.
 
 Archived Artifacts: Stored in Jenkins for later use or deployment.
 
-Results and Screenshots
+*Results and Screenshots
 
 (Save these images under the docs/ folder)
 
 Jenkins dashboard showing the project or job
 
-Pipeline stage view
+*Pipeline stage view
 
-Successful build status
+*Successful build status
 
-Archived artifacts view
+*Archived artifacts view
 
-Test report view
+*Test report view
 
 Project Structure
 Automated-CI-Pipeline-Jenkins/
@@ -109,7 +109,7 @@ Automated-CI-Pipeline-Jenkins/
 │   └── test_results.png
 └── .gitignore
 
-Conclusion
+#Conclusion
 
 This project showcases how Jenkins can automate the Continuous Integration process for a web application.
 By integrating Jenkins with GitHub and implementing testing, building, and artifact management, developers can ensure consistent and reliable code delivery
