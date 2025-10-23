@@ -1,5 +1,7 @@
-AUTOMATED CI PIPELINE FOR WEB APLLICATION USIN JENKINS                                             
+AUTOMATED CI PIPELINE FOR WEB APLLICATION USIN JENKINS
+
 Project Overview
+
 This project demonstrates how to design and implement a Continuous Integration (CI) pipeline using Jenkins for a modern web application.
 The pipeline automatically triggers whenever new code is pushed to a GitHub repository. It performs automated steps including code retrieval, dependency installation, testing, building, and artifact packaging — ensuring the application is always ready for deployment.
 The project focuses on automation, reliability, and repeatability, which are key principles of modern DevOps practices.
